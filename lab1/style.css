@@ -1,51 +1,103 @@
-body{
+body {
     margin: 0;
     background-color: #BCA37F;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     height: 100%;
 }
-#menu{
-    width: 100%;
-    background-color:#FFF2D8;
-    height: 8%;
-    table{
-        width: 100%;
-        height: 100%;
-    }
-    td{
-        text-align: center;
-        width: 20%;
-    }
-    td:hover{
-        background-color: #EAD7BB;
-    
-    }
+a:link {
+    color: black;
+    text-decoration: none;
+  }
+  
+a:visited {
+  text-decoration: none;
+  color: black;
 }
-#content{
+
+#menu {
+    width: 100%;
+    background-color: #FFF2D8;
+    height: 8%;
+}
+
+#menu table {
+    width: 100%;
+    height: 100%;
+}
+
+#menu td {
+    text-align: center;
+    width: 20%;
+}
+
+#menu td:hover {
+    background-color: #EAD7BB;
+}
+
+#content {
     margin: 3%;
 }
-.nur1{
+
+.nur1 {
     width: 30%;
     height: auto;
     float: right;
     margin: 10px;
 }
-.nur2{
+
+.nur2 {
     width: 30%;
     height: auto;
     float: left;
     margin: 10px;
 }
-#footer{
+
+#footer {
     left: 0;
-    position: fixed;
     background-color: #0F2C59;
     bottom: 0;
     height: 10%;
     width: 100%;
     text-align: center;
-    span{
-        color:white;
-        margin: 30px;
-    }
+    clear: both;
+}
+
+#footer span {
+    color: white;
+    margin: 30px;
+}
+
+#gallery {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#gallery h2 {
+    font-size: 24px;
+}
+
+#gallery table {
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+#gallery table td {
+    padding: 10px;
+    height: 250px;
+}
+
+#gallery table img {
+    max-width: 100%;
+    height: 100%;
+    border: 2px solid #fff;
+}
+
+.foto{
+    margin: 20px;
+    height: 250px;
+    float: left;
+}
+
+.kontaktfoot{
+    position: fixed;
 }
