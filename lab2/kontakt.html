@@ -1,0 +1,38 @@
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Language" content="pl">
+    <meta name="Author" content="Krzysztof Rozmysłowicz">
+    <title>Kontakt</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="menu">
+        <table>
+            <tr>
+                <td><a href="index.html"><b>Nurburgring</b></a></td>
+                <td><a href="merc.html"><b>#1 Mercedes-AMG One</b></a></td>
+                <td><a href="porsch.html"><b>#2 Porsche 911 GT2 RS MR</b></a></td>
+                <td><a href="merc2.html"><b>#3 Mercedes-AMG Black Series</b></a></td>
+                <td><a href="kontakt.html"><b>Kontakt</b></a></td>
+                <td><a href="kolory.html"><b>Skrypt</b></a></td>
+            </tr>
+        </table>
+    </div>
+    <div id="content">
+        <h1>Kontakt</h1>
+        <p>Skontaktuj się z nami, korzystając z poniższego formularza lub wysyłając e-mail na adres: <a href="mailto:adres@domena.pl">nurburgring@gmail.com</a></p>
+        <form action="mailto:nurburgring@gmail.com" method="post" enctype="text/plain">
+            <label for="name">Imię i Nazwisko:</label><br>
+            <input type="text" id="name" name="name" required><br>
+            <label for="email">Adres e-mail:</label><br>
+            <input type="email" id="email" name="email" required><br>
+            <label for="message">Wiadomość:</label><br>
+            <textarea id="message" name="message" rows="4" cols="50" required></textarea><br>
+            <input type="submit" value="Wyślij">
+        </form>
+    </div>
+    <div id="footer" class="kontaktfoot">
+        <br><br>
+        <span>Stronę zaprojektował <u><i>Krzysztof Rozmysłowicz</i></u></span>
+    </div>
+</body>
