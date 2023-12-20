@@ -1,0 +1,136 @@
+/* Resetuje podstawowe style dla często używanych elementów */
+html, body, div, h1, h2, h3, ul, li, p, a {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Style dla całego body strony */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+/* Style dla nawigacji */
+nav {
+    background: linear-gradient(90deg, rgba(255,0,0,1) 52%, rgba(121,9,9,1) 97%);
+    color: white;
+    padding: 10px;
+}
+
+/* Style dla listy w nawigacji */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+/* Style dla elementów listy w nawigacji */
+nav ul li {
+    margin-right: 20px;
+}
+
+/* Style dla linków w nawigacji */
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/* Style dla kontenera z zawartością */
+.content-container {
+    text-align: center;
+    min-height: 100vh;
+    margin: 20px;
+}
+
+/* Style stopki */
+footer {
+    background: linear-gradient(90deg, rgba(34,34,34,1) 15%, rgba(51,51,51,1) 50%, rgba(34,34,34,1) 85%);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    margin-top: auto;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Style zegara */
+#clock {
+    font-size: 20px;
+}
+
+/* Style dla nagłówka drugiego poziomu */
+h2 {
+    color: #333;
+}
+
+/* Style dla akapitów */
+p {
+    color: #333;
+}
+
+/* Style dla linków */
+a {
+    color: #007BFF;
+    transition: color 0.3s ease-in-out;
+}
+
+/* Efekt przy najechaniu na link */
+a:hover {
+    color: #0056b3;
+}
+
+/* Style dla list */
+ul {
+    list-style: none;
+}
+
+/* Style dla kontenera z galerią */
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+/* Style dla elementów galerii */
+.gallery-item {
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+/* Style dla obrazków w galerii */
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Kolor tekstu autora */
+.author {
+    color: #ffffff;
+}
+
+/* Style dla kontenera z video */
+.video-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin-top: 20px;
+}
+
+/* Style dla ramki video */
+.video-container iframe {
+    width: 100%;
+    height: 400px;
+    border: 0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
