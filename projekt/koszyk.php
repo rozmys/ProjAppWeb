@@ -158,29 +158,6 @@ if (isset($_POST['placeOrder'])) {
     <?php
     showCartDetails($conn);
     ?>
-    <!-- Formularz dodawania produktu do koszyka -->
-    <!-- <form method="post" action="", class="add-to-cart-form">
-        <label for="addId">Wybierz produkt:</label>
-        <select name="addId" id="addId">
-            <?php
-            // Zapytanie SQL pobierające produkty
-            $sql = "SELECT id, tytul FROM produkty";
-
-            // Wykonanie zapytania
-            $result = $conn->query($sql);
-
-            // Wyświetlenie opcji wyboru produktów
-            if ($result->num_rows > 0) {
-                while ($row = $result->fetch_assoc()) {
-                    echo "<option value='" . $row['id'] . "'>" . $row['tytul'] . "</option>";
-                }
-            }
-            ?>
-        </select>
-        <label for="quantity">Ilość:</label>
-        <input type="number" id="quantity" name="quantity" min="1">
-        <input type="submit" value="Dodaj do koszyka">
-    </form> -->
     <div class="total-amount">
     <?php
         $totalAmount = 0;
