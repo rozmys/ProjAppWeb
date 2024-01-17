@@ -1,0 +1,128 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #3494E6, #EC6EAD);
+    color: #333;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff; /* Dodaj kolor tła dla kontenera, aby lepiej oddzielić od gradientu */
+}
+
+h1, h2 {
+    color: #333;
+    text-align: center;
+}
+
+/* Styl dla koszyka */
+.cart {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.cart table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.cart table, .cart th, .cart td {
+    border: 1px solid #ddd;
+}
+
+.cart th, .cart td {
+    padding: 10px;
+    text-align: left;
+}
+
+.cart img {
+    max-width: 50px;
+    max-height: 50px;
+}
+
+.total-amount {
+    margin-top: 10px;
+}
+
+/* Styl dla formularza dodawania produktu do koszyka */
+.add-to-cart-form {
+    margin-top: 20px;
+}
+
+.add-to-cart-form label {
+    margin-right: 10px;
+}
+
+/* Styl dla przycisku Złóż zamówienie */
+.place-order-form {
+    margin-top: 20px;
+}
+
+/* Styl dla tabelki z wyświetlanymi produktami */
+.products table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.products table, .products th, .products td {
+    border: none;
+}
+
+.products th, .products td {
+    padding: 10px;
+    text-align: left;
+}
+
+.products img {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+input, select {
+    font-size: 16px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    background-color: #3494E6;
+    color: #fff;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #3494E6;
+}
+
+/*Styl dla przycisków */
+button {
+    font-size: 16px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ddd;
+}
+
+/* Styl dla linków */
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
