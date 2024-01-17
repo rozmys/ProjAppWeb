@@ -11,7 +11,7 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
-    background: #fff; /* Dodaj kolor tła dla kontenera, aby lepiej oddzielić od gradientu */
+    background: #fff;
 }
 
 h1, h2 {
